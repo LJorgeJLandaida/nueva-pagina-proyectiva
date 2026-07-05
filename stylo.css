@@ -14,9 +14,13 @@ h1{
 }
 
 .navegacion{
-    padding: 20px;
+    padding: 10px;
     margin: 0;
     background-color: rgb(226, 11, 11);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
 }
 
 .navegacion1{
@@ -48,4 +52,17 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+}
+
+.etiqueta1{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.etiqueta2{
+    
+}
+
+.etiqueta3{
+
 }
