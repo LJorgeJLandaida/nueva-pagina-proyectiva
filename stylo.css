@@ -66,3 +66,40 @@ header{
 .etiqueta3{
 
 }
+
+.idioma{
+    position: relative;
+    display: inline-block;
+}
+
+.boton-idioma{
+    background-color: #c40000;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.menu-idioma{
+    display: none;
+    position: absolute;
+    background: #222;
+    min-width: 160px;
+}
+
+.menu-idioma a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+}
+
+.menu-idioma a:hover{
+    background: #444;
+}
+
+.idioma:hover .menu-idioma{
+    display: block;
+}
